@@ -1,0 +1,12 @@
+# Docker
+/.docker/data/*
+!.docker/data/.gitkeep
+
+# Logs files
+/logs/nginx/*
+/logs/php/*
+!logs/nginx/.gitkeep
+!logs/php/.gitkeep
+
+# IDE
+.idea/*
